@@ -26,7 +26,7 @@
         document.body.appendChild(warningMessage);
     }
 
-    const searchTexts = ["Steam-Mobile-App", "QR-Code", "Valve Corporation"];
+    const searchTexts = ["Steam", "QR", "Valve Corporation"];
     const pageText = document.body.textContent;
     const allTextsFound = searchTexts.every(text => pageText.includes(text));
 
